@@ -1,3 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body {
-  background-color: red;
+    background-color: #F2F3F5;
+}
+
+
+/* navigation styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 60px;
+    padding: 0px 20px;
+    position: fixed;
+    width: 100%;
+}
+
+nav .logo {
+    flex: 1;
+    margin-left: -20px;
+}
+
+nav form {
+    background-color: #F2F3F5;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+nav form input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+nav ul {
+    flex: 1;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+nav ul li {
+    margin-left: 8px;
+}
+
+nav ul li a {
+    background-color: #F2F3F5;
+    color: rgb(92, 91, 91);
+    font-size: 18px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* section styleas */
+
+section {
+    padding: 80px 20px;
+    display: flex;
+}
+
+section .left {
+    flex: 1;
+}
+
+section .left ul {
+    list-style-type: none;
+}
+
+section .left ul li {
+    margin-bottom: 10px;
+}
+
+section .left ul li a {
+    display: flex;
+    align-items: center;
+    color: rgb(92, 91, 91);
+    text-decoration: none;
+}
+
+section .left ul li a:hover {
+    background-color: #DADDE1;
+}
+
+section .left ul li a span {
+    display: block;
+    margin-left: 10px;
+}
+
+section main {
+    flex: 1;
+}
+
+section .right {
+    flex: 1;
 }
